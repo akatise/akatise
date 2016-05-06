@@ -1,0 +1,39 @@
+
+10. If try to register with special symbols, users not register, but they  shows in field for last register user.
+11. If click on user which try to register with special symbols in last register user field,
+ shows info for current user like email, date of registration, post and vote, without actually he has registered.
+13. No warning for deletion.
+14. Missing restrictionfor size on topic.
+15. If topic size is too long, cannot create topic, but don't error message.
+16. Missing restrictionfor size on comment.
+17. If comment size is too long, cannot create topic, but don't error message.
+
+
+Sequrity bugs
+1. Can to use invalid åmail for registration.
+2. No åmail verification.
+3. Unregister users can see id and email a others users.
+
+Funcional bugs
+1. Cannot search by topic name.
+2. Cannot vote comment and topick.
+3. Cannot register with special symbols (', / and others).
+4. In topics, over any topic and over comment, the username is not clickable.
+5. Cannot reopen own topic.
+
+Users
+1. When clicking Category do not get us anywhere.
+2. Cannot search by username.
+3. No "forgotten password" in login form.
+4. No warning for deletion.
+5. No "remember me" in login form.
+6. You should not be allowed to edit your username.
+7. Mistake in "Everything abour".
+8. When username is editted, the greeting still shows the old one.
+
+Desing bugs
+1. 
+2. In the login form, fields username and password, are almost same color like an background page.
+3. In the login form, texts "Login", "Username" and "Password", are almost same color like an background page.
+4. "Edit" and "Cancel" buttons in edit on comment, are almost same color like an background page.
+5. "Logout" and "find" buttons, are almost same color like an background page.
